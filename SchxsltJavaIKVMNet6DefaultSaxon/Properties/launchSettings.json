@@ -6,7 +6,7 @@
     },
     "WSL": {
       "commandName": "WSL",
-      "commandLineArgs": "SchxsltJavaIKVMNet6DefaultSaxon.dll\rprice.sch\r\nbooks.xml"
+      "commandLineArgs": "SchxsltJavaIKVMNet6DefaultSaxon.dll\r\nprice.sch\r\nbooks.xml"
     }
   }
 }
