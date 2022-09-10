@@ -14,7 +14,7 @@ var schematron = new name.dmaus.schxslt.Schematron(new StreamSource(new JFile(ar
 
 var result = schematron.validate(new StreamSource(new JFile(args[1])));
 
-Console.WriteLine($"{args[1]} valid against {args[0]}: {result.isValid()}");
+Console.WriteLine($"{args[1]} is {(result.isValid() ? "" : "not ")}valid against {args[0]}");
 
 if (!result.isValid())
 {
