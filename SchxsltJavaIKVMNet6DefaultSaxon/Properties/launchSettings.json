@@ -3,6 +3,10 @@
     "SchxsltJavaIKVMNet6DefaultSaxon": {
       "commandName": "Project",
       "commandLineArgs": "price.sch\r\nbooks.xml"
+    },
+    "WSL": {
+      "commandName": "WSL",
+      "commandLineArgs": "SchxsltJavaIKVMNet6DefaultSaxon.dll\rprice.sch\r\nbooks.xml"
     }
   }
 }
