@@ -4,6 +4,8 @@ using net.sf.saxon;
 using System.Reflection;
 using JFile = java.io.File;
 
+Console.WriteLine($"{Environment.Version} {Environment.OSVersion}");
+
 //Console.WriteLine(string.Join(Environment.NewLine, Assembly.Load("schxslt").GetManifestResourceNames()));
 //load Schxslt assembly with the necessary Schxslt XSLT files
 ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("schxslt"));
