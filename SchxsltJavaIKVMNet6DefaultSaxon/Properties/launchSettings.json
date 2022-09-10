@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SchxsltJavaIKVMNet6DefaultSaxon": {
+      "commandName": "Project",
+      "commandLineArgs": "price.sch\r\nbooks.xml"
+    }
+  }
+}
