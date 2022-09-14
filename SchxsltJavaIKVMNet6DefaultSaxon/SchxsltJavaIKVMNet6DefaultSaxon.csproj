@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="IKVM.Maven.Sdk" Version="1.0.1" />
-	<MavenReference Include="name.dmaus.schxslt:schxslt" Version="1.9.1" />
+	<MavenReference Include="name.dmaus.schxslt:schxslt" Version="1.9.2" />
 	<MavenReference Include="name.dmaus.schxslt:java" Version="3.1.1" />
   </ItemGroup>
 
